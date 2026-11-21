@@ -21,3 +21,7 @@ example 2 -> SELECT 2+2; -> prints 4
 CREATE EXTENSION IF NOT EXISTS pgcrypto; -> this enables pgcrypto extension on the system
 
 \dx -> prints all extensions enabled on the system
+
+9. IS NULL -> use it against a field name in a record to check if that value is null. If you want to check the opposite (not null, check 10th point)
+
+10. IS NOT NULL -> use it against a field name in a record to check if that value is not null.
